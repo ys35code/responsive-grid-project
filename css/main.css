@@ -1,3 +1,48 @@
 /* Add your CSS here */
+:root {
+    --r-b: #A05941;
+    --g-b: #133032;
+    --l-g: #EDEDEE; 
+    --w: #FFF;
+    --t-w: rgba(0,0,0,0.75); 
+  }
+
+body {
+    background-color: var(--l-g);
+    margin: 0;
+    padding: 0;
+}
+
+header#header-1 {
+    width: auto;
+    height: 100%;
+    margin: 2rem 2rem 0 2rem;
+    padding: 1rem;
+    background-color: var(--w);
+}
+
+input[type=search] {
+    box-sizing: border-box;
+    border: 10px solid var(--w);
+    background-image: url(/designs/search.png);
+    background-size: 15%;
+    background-repeat: no-repeat;
+    padding: 12px 20px 12px 40px;
+}
+
+input[type=search]:focus {
+    outline-color: var(--r-b);
+}
+
+
+
+
+
+
+
+
+
 
 /* Dont' forget to link this file to your HTML in the <head> */
+
+
