@@ -19,6 +19,8 @@ header#header-1 {
     margin: 2rem 2rem 0 2rem;
     padding: 1rem;
     background-color: var(--w);
+    display: flex;
+    flex-direction: row;
 }
 
 input[type=search] {
@@ -34,8 +36,14 @@ input[type=search]:focus {
     outline-color: var(--r-b);
 }
 
+::placeholder {
+    color: var(--r-b);
+  }
 
-
+div.login {
+    display: flex;
+    margin-left: auto;
+}
 
 
 
