@@ -295,3 +295,122 @@ footer{
   .title{
     font-size: medium;
 }
+
+@media (min-width: 600px) {
+    header{
+        margin: 20px;
+        display:grid ;
+        grid-template-columns: 2fr 1fr;
+        
+        height: 100px;
+        position: sticky;
+        top: 0;
+        background-color: var(--white);
+    }
+
+    .name-title{
+        display:flex;
+        align-items: baseline;
+        gap: 5px; 
+    } 
+
+    .professional-introduction{
+        margin:20px;
+        background-color: var(--lightBeige);
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        gap:20px;   
+        box-shadow: -7px 7px 15px 2px #939393;
+        position:relative; 
+        top:unset; 
+        height: 450px;
+        width: 400px;      
+    } 
+
+    .personal-introduction {
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        position: relative;
+        bottom: unset;
+        right: 40px;
+        top: 40px;
+        height: 450px;
+        width: 400px;
+    } 
+
+    .follow-links-container{
+        width: 100%;
+        background-color: var(--white);
+        transform: unset; 
+    }    
+
+    #menu{
+        position: relative;
+        width: unset;
+        margin: unset;
+        padding-top: unset;
+        background:unset;
+        list-style-type: none;
+       -webkit-font-smoothing: unset;
+        display: block;
+        display: flex;
+        gap: 20px;
+        bottom: 40px;
+    }
+
+    .span-1 ,.span-2 ,.span-3{
+        display: none;
+    }
+   
+    main{
+        display:grid;
+        grid-template-columns: 40% 60%;
+        background-color:var(--white);
+        z-index: -1;
+        height: 100vh;
+    }
+
+    .blank{
+        background-color: var(--darkBeige);
+    }
+    
+    .introduction{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        position: relative;
+        right: 300px;
+        top:200px;
+    } 
+    
+    .button-personal{
+        display: block;
+    }
+
+    .button-professional{
+        display: none;
+    }
+
+    .project{
+        background-color: var(--white);
+    }
+
+    .resume:hover{
+        background-color: var(--white);
+    }
+    
+    footer{
+        display: grid;
+        grid-template-columns: 3fr 1fr 1fr ;
+        margin-top: 30px;
+        margin-right: 0px;
+        margin-bottom: 10px;
+    }
+
+    .copywrite{
+        grid-column: 1/2;
+        grid-row: 1;
+    }
+
+}
