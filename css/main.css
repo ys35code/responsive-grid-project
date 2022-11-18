@@ -69,9 +69,37 @@ div.login {
         padding: 1rem;
         background-color: var(--l-g);
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+    }
+
+    h1 {
+        color: var(--r-b);
+        font-size:x-large;
+        padding-left: 1rem;
     }
     
+    div.img img {
+        width: 2rem;
+        height: 2rem;
+        margin-left: 7rem;
+        margin-top: 1rem;
+    }
+
+    div.p {
+        color: var(--r-b);
+        margin-left: 2rem;
+        margin-top: -2rem;
+    }
+
+    /* div.card-1 img {
+        width: 100%;
+    } */
+
+    div.card-1 {
+        background-image: url(/designs/sticker-bush-g0a73c6639_1280.jpg);
+        background-size: cover;
+        height: auto;
+    }
 }
 
 
