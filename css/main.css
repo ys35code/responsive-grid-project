@@ -46,25 +46,32 @@ div.login {
 }
 
 @media screen and (max-width: 376px) {
+    
     header#header-1 {
-        width: auto;
-        height: 100%;
+        width: 100%;
+        height: auto;
         margin: 0;
-        padding: 1rem;
+        padding: 0;
         background-color: var(--w);
         display: flex;
         flex-direction: row;
     }
 
+    header#header-1 form input {
+        width: 100%;
+    }
+
     div.login > img{
         width: 2rem;
         height: 2rem;
-        margin-top: 30%;
+        margin-top: 1rem;
+        margin-right: 2rem;
+        
     }
 
     header#header-2 {
-        width: auto;
-        height: 100%;
+        width: 100%;
+        height: auto;
         margin: 0;
         padding: 1rem;
         background-color: var(--l-g);
@@ -81,7 +88,7 @@ div.login {
     div.img img {
         width: 2rem;
         height: 2rem;
-        margin-left: 7rem;
+        margin-left: 5rem;
         margin-top: 1rem;
     }
 
@@ -89,18 +96,22 @@ div.login {
         color: var(--r-b);
         margin-left: 2rem;
         margin-top: -2rem;
+        width: 100%;
     }
 
     /* div.card-1 img {
         width: 100%;
     } */
 
-    div.card-1 {
+    /* div.card-1 {
         background-image: url(/designs/sticker-bush-g0a73c6639_1280.jpg);
         background-size: cover;
+        background-repeat: no-repeat;
+        background-position: 100%;
         height: auto;
+        width: 5rem;
     }
-}
+} */
 
 
 
