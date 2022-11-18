@@ -45,6 +45,35 @@ div.login {
     margin-left: auto;
 }
 
+@media screen and (max-width: 376px) {
+    header#header-1 {
+        width: auto;
+        height: 100%;
+        margin: 0;
+        padding: 1rem;
+        background-color: var(--w);
+        display: flex;
+        flex-direction: row;
+    }
+
+    div.login > img{
+        width: 2rem;
+        height: 2rem;
+        margin-top: 30%;
+    }
+
+    header#header-2 {
+        width: auto;
+        height: 100%;
+        margin: 0;
+        padding: 1rem;
+        background-color: var(--l-g);
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
 
 
 
